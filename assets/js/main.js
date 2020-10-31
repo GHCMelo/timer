@@ -3,10 +3,12 @@ function Timer(){
     const btnIniciar = document.querySelector('.iniciar')
     const btnPausar = document.querySelector('.pausar')
     const btnZerar = document.querySelector('.zerar')
+    const message = document.getElementById('msg')
     let seconds = 0
     let timerShow
 
     function createHour(seconds){
+        message.innerHTML = ''
         const hour = new Date(seconds * 1000);
         const newHour = hour.toLocaleTimeString('pt-BR', {
             hour12: false,
@@ -24,10 +26,12 @@ function Timer(){
     }
 
     function stopClock(){
+        message.innerHTML = 'Stoped!'
         clearInterval(timerShow);
     }
 
     function clearClock(){
+        message.innerHTML = ''
         clearInterval(timerShow);
         timer.innerHTML = '00:00:00'
     }
