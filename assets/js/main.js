@@ -26,7 +26,7 @@ function Timer(){
     }
 
     function stopClock(){
-        message.innerHTML = 'Stoped!'
+        message.innerHTML = 'Stopped!'
         clearInterval(timerShow);
     }
 
