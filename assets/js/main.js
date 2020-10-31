@@ -1,4 +1,4 @@
-function exercicio(){
+function Timer(){
     const timer = document.getElementById('timer');
     const btnIniciar = document.querySelector('.iniciar')
     const btnPausar = document.querySelector('.pausar')
@@ -48,4 +48,4 @@ function exercicio(){
     })
 }
 
-exercicio()
+Timer()
