@@ -2,5 +2,3 @@
 Start, stop and clear timer.
 
 Was used: HTML, CSS and JS
-
-https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1f7.png?v8
